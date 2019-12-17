@@ -29,3 +29,7 @@ git pust -u origin master
 ```
 to update submodules : git submodule update --init 
 ```
+
+# Get update submodule with parent project
+git pull --recurse-submodules
+
