@@ -23,3 +23,9 @@ git add common-utitliy
 git commin -m ""
 git pust -u origin master
 ```
+
+
+# When First time clone project with submodule. 
+```
+to update submodules : git submodule update --init 
+```
