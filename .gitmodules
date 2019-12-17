@@ -1,0 +1,3 @@
+[submodule "common-utility"]
+	path = common-utility
+	url = https://github.com/chamlyidunil/common-utility.git
