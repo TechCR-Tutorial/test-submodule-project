@@ -33,3 +33,8 @@ to update submodules : git submodule update --init
 # Get update submodule with parent project
 git pull --recurse-submodules
 
+
+# Reset submodule to orginal reference
+git submodule update -f --recursive
+
+
