@@ -24,6 +24,8 @@ git commin -m ""
 git pust -u origin master
 ```
 
+# Get latest update ( commit ) from submodule. 
+git submodule foreach git pull
 
 # When First time clone project with submodule. 
 ```
@@ -36,5 +38,10 @@ git pull --recurse-submodules
 
 # Reset submodule to orginal reference
 git submodule update -f --recursive
+
+# Update Submodule reference. 
+```
+If some thing udpate from submodule, its need to push. 
+```
 
 
